@@ -1,0 +1,377 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{C95B492A-1611-4693-A2BB-D1B04D85253D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "project"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "project"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AddCase.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AddCase.aspx.vb"
+                    DependentUpon = "AddCase.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AddCase.aspx.resx"
+                    DependentUpon = "AddCase.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AskQuestion.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AskQuestion.aspx.vb"
+                    DependentUpon = "AskQuestion.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AskQuestion.aspx.resx"
+                    DependentUpon = "AskQuestion.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CLogout.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CLogout.aspx.vb"
+                    DependentUpon = "CLogout.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CLogout.aspx.resx"
+                    DependentUpon = "CLogout.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrimalRecord.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CrimalRecord.aspx.vb"
+                    DependentUpon = "CrimalRecord.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrimalRecord.aspx.resx"
+                    DependentUpon = "CrimalRecord.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Feedback.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Feedback.aspx.vb"
+                    DependentUpon = "Feedback.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Feedback.aspx.resx"
+                    DependentUpon = "Feedback.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LoginCivil.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LoginCivil.aspx.vb"
+                    DependentUpon = "LoginCivil.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LoginCivil.aspx.resx"
+                    DependentUpon = "LoginCivil.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LoginSherlock.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LoginSherlock.aspx.vb"
+                    DependentUpon = "LoginSherlock.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LoginSherlock.aspx.resx"
+                    DependentUpon = "LoginSherlock.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewCase.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewCase.aspx.vb"
+                    DependentUpon = "NewCase.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewCase.aspx.resx"
+                    DependentUpon = "NewCase.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewUser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewUser.aspx.vb"
+                    DependentUpon = "NewUser.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewUser.aspx.resx"
+                    DependentUpon = "NewUser.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OnGoing.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OnGoing.aspx.vb"
+                    DependentUpon = "OnGoing.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OnGoing.aspx.resx"
+                    DependentUpon = "OnGoing.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SherlockHome.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SherlockHome.aspx.vb"
+                    DependentUpon = "SherlockHome.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SherlockHome.aspx.resx"
+                    DependentUpon = "SherlockHome.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Solved.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Solved.aspx.vb"
+                    DependentUpon = "Solved.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Solved.aspx.resx"
+                    DependentUpon = "Solved.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserActivity.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserActivity.aspx.vb"
+                    DependentUpon = "UserActivity.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserActivity.aspx.resx"
+                    DependentUpon = "UserActivity.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ViewCase.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ViewCase.aspx.vb"
+                    DependentUpon = "ViewCase.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewCase.aspx.resx"
+                    DependentUpon = "ViewCase.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "bin\MSCaptcha.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\MSCaptcha.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\project.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\project.pdb"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin2\MSCaptcha.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin2\MSCaptcha.xml"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
